@@ -1,0 +1,34 @@
+{
+    "name": "nwidart/redirect",
+    "description": "Redirect module for Laravel 12 project",
+    "type": "library",
+    "require": {
+ 
+        "jenssegers/agent": "^2.6"
+    },
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Redirect\\": "",
+            "Modules\\Redirect\\Database\\Factories\\": "database/factories/",
+            "Modules\\Redirect\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Redirect\\Tests\\": "tests/"
+        }
+    }
+}
