@@ -1,15 +1,18 @@
 {
-    "name": "nwidart/redirect",
+    "name": "datasdk/redirect-module",
+    "type": "laravel-module",
+    "license": "proprietary",
+
     "description": "Redirect module for Laravel 12 project",
-    "type": "library",
+
     "require": {
  
         "jenssegers/agent": "^2.6"
     },
     "authors": [
         {
-            "name": "Nicolas Widart",
-            "email": "n.widart@gmail.com"
+            "name": "Kasper L. Kristiansen",
+            "email": "info@datas.dk"
         }
     ],
     "extra": {
